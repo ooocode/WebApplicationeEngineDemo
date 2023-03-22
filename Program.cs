@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 var dbConnectString = "server=127.0.0.1;" +
-        "database=Test-Engine-0320-1;" +
+        "database=Test-Engine-0321-2;" +
         "user id=postgres;password=12345678";
 var autoCreateDb = true;
 var engineGrpcAddress = string.Empty;
